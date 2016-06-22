@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Zanuka Mobile</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="setup_first_welcome">Willkommen</string>
+    <string name="setup_first_infotext">Bitte gib deine Telefonnummer ein um fortfahren zu können.</string>
+    <string name="setup_first_continue">Weiter</string>
+
+    <string name="setup_waiting_status_send_code">Erhalte Verifizierungscode</string>
+    <string name="setup_waiting_status_check_code">Prüfe Verifizierungscode</string>
+
+    <string name="setup_verify_title">Verifizierung</string>
+    <string name="setup_verify_infotext">Du hast von uns per SMS einen Verifizierungscode zugestellt bekommen.</string>
+    <string name="setup_verify_infotext2">Bitte gib diesen im\n unteren Feld ein.</string>
+</resources>

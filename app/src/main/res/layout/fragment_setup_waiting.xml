@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.keecode.zanukamobile.activity.setup.SetupWaiting"
+    android:background="@drawable/zanuka_background">
+
+    <ProgressBar
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:indeterminateDrawable="@drawable/zanuka_spinner"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar"
+        android:indeterminateDuration="400" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setup_waiting_status"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="@color/colorText"
+        android:textSize="25dp" />
+
+</RelativeLayout>
